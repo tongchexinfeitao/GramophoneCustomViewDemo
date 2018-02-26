@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GramophoneView">
+        <attr name="picture_radiu" format="dimension" />      //中间图片的半径
+        <attr name="src" format="reference" />                //图片
+        <attr name="disk_rotate_speed" format="float" />      //唱片旋转的速度
+    </declare-styleable>
+</resources>

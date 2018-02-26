@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.example.gramophonecustomviewdemo.GramophoneView
+        app:src="@drawable/land"
+        app:picture_radiu="80dp"
+        app:disk_rotate_speed="1"
+        android:id="@+id/gramopone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:onClick="pauseOrstart"
+        android:text="切换播放状态"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
